@@ -4,16 +4,20 @@
   "description": "Video Streaming Project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "nodemon index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://ssanskardahiya@github.com/SanskarDahiya/VideoEncryptionDecryption_nodeJS.git"
+    "url": "git+https://github.com/SanskarDahiya/VideoEncryptionDecryption_nodeJS.git"
   },
-  "author": "",
+  "author": "SANSKAR DAHIYA",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/SanskarDahiya/VideoEncryptionDecryption_nodeJS/issues"
   },
-  "homepage": "https://github.com/SanskarDahiya/VideoEncryptionDecryption_nodeJS#readme"
+  "homepage": "https://github.com/SanskarDahiya/VideoEncryptionDecryption_nodeJS#readme",
+  "dependencies": {
+    "crypto": "1.0.1"
+  }
 }
